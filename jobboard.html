@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+	<link rel="icon" href="images/tab-logo.png">
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic|Play+Fair:700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<!-- Bootstrap Data Table Plugin -->
+	<link rel="stylesheet" href="css/components/bs-datatable.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+
+	<!-- Document Title
+	============================================= -->
+	<title>Job Board | Windsor Women</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header transparent-header">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo" data-dark-logo="images/logo.png"><img src="images/logo.png" alt="w5 Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="images/logo.png"><img src="images/logo.png" alt="w5 Logo"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu">
+
+						<ul>
+							<li><a href="index.html"><div>Home</div></a></li>
+							
+							<li><a href="About.html"><div>About Us</div></a></li>
+							
+							<li><a href="programs.html"><div>Programs</div></a>
+								<ul>
+									<li><a href="employment.html"><div>Employment</div></a></li>
+									<li><a href="childCare.html"><div>Child Care</div></a></li>
+									<li><a href="language.html"><div>Language</div></a></li>
+									<li><a href="settlement.html"><div>Settlement</div></a></li>
+									<li><a href="women.html"><div>Women</div></a></li>
+									<li><a href="youth.html"><div>Youth</div></a></li>
+									<li><a href="mentalHealth.html"><div>Mental Wellness</div></a></li>
+									<li><a href="senior.html"><div>Seniors</div></a></li>
+								</ul>
+							</li>
+							
+							<li class="current"><a href="jobboard.html"><div>Job Board</div></a></li>
+							<li><a href="careers.html"><div>Come Work For Us</div></a></li>
+							<li><a href="contact.html"><div>Contact Us</div></a></li>
+							
+						</ul>
+	
+						<!-- Top Search
+						============================================= -->
+						<div id="top-search">
+							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+							<form action="search.html" method="get">
+								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+							</form>
+						</div><!-- #top-search end -->
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<!-- Page Title
+		============================================= -->
+		<section id="page-title" class="page-title-mini">
+
+			<div class="container clearfix">
+				<h1>Job Board</h1>
+				<ol class="breadcrumb">
+					<li><a href="#">Home</a></li>
+					<li class="active">Job Board</li>
+				</ol>
+			</div>
+
+		</section><!-- #page-title end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+				
+				
+				<div class="container clearfix">
+					<div class="hidden-xs">
+						<button id="button1" class="button button-xlarge button-border button-rounded tright" type="button" onclick="showContact()">Contact Us here with the job number<i class="icon-circle-arrow-down"></i></button>
+					</div>
+				
+					<div class="visible-xs">
+						<button id="button0" class="button button-mini button-border button-rounded tright" type="button" onclick="showContact()">Contact Us here with the job number<i class="icon-circle-arrow-down"></i></button>
+					</div>
+					
+					<div class="contact-widget" id="contact-widget" style="display : none;">
+						
+						<br>
+							<div class="contact-form-result"></div>
+
+							<form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail-1.php" method="post" enctype="multipart/form-data">
+
+								<div class="form-process"></div>
+
+								<div class="col_one_third">
+									<label for="template-contactform-name">Name <small>*</small></label>
+									<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+								</div>
+
+								<div class="col_one_third">
+									<label for="template-contactform-email">Email <small>*</small></label>
+									<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+								</div>
+
+								<div class="col_one_third col_last">
+									<label for="template-contactform-phone">Phone</label>
+									<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
+								</div>
+
+								<div class="clear"></div>
+
+								<div class="col_two_third">
+									<label for="template-contactform-subject">Subject <small>*</small></label>
+									<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control" />
+								</div>
+
+								<div class="col_one_third col_last">
+									<label for="template-contactform-phone">Job Number <small>*</small></label>
+									<input type="number" id="template-contactform-job" name="template-contactform-job" placeholder="Only Numbers" class="required sm-form-control" />
+								</div>
+
+								<div class="clear"></div>
+
+								<div class="col_full">
+									<label for="template-contactform-message">Upload CV/Resume</label>
+									<input type="file" id="template-contactform-file" name="template-contactform-file" value="" class="sm-form-control" />
+								</div>
+
+								<div class="col_full">
+									<label for="template-contactform-message">Message <small>*</small></label>
+									<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+								</div>
+
+								<div class="col_full hidden">
+									<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+								</div>
+
+								<div class="col_full">
+									<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+								</div>
+
+							</form>
+
+						</div>
+					
+					<script>
+						function showContact() {
+     					var x = document.getElementById('contact-widget');
+							var b = document.getElementById('button0');
+							var c = document.getElementById('button1');
+    
+							if (x.style.display === 'none') {
+								x.style.display = 'block';
+								b.innerHTML = 'Hide Form<i class="icon-circle-arrow-up"></i>';
+								c.innerHTML = 'Hide Form<i class="icon-circle-arrow-up"></i>';
+							} else {
+								x.style.display = 'none';
+								b.innerHTML = 'Contact Us here with the job number<i class="icon-circle-arrow-down"></i>';
+								c.innerHTML = 'Contact Us here with the job number<i class="icon-circle-arrow-down"></i>';
+							}
+						}
+					</script>
+					
+					<div class="divider divider-border divider-center"><i class="icon-email2"></i></div>
+					
+					<div class="table-responsive">
+						
+						<!-- Jobs Filter
+					============================================= -->
+						<button type="button" id="sort1" class="btn btn-default" value="1181" onclick="reloadTable()">Show All</button>
+						<button type="button" id="sort2" class="btn btn-default" value="part" onclick="filterFunc('sort2')">Part time</button>
+					  <button type="button" id="sort3" class="btn btn-default" value="full" onclick="filterFunc('sort3')">Full time</button>
+						<button type="button" id="sort4" class="btn btn-default" value="active" onclick="filterFunc('sort4')">Active</button>
+						
+						<br><br><br><!-- #portfolio-filter end -->
+
+						<table id="datatable1" class="table table-striped table-bordered" cellspacing="0" width="100%">
+							<thead>
+								<tr>
+									<th>Job Number</th>
+									<th>Title</th>
+									<th>Status</th>
+									<th>Vacancies - Locations</th>
+									<th>Deadline</th>
+									<th>Salary</th>
+									<th>More Information</th>
+								</tr>
+							</thead>
+							<tfoot>
+								<tr>
+									<th>Job Number</th>
+									<th>Title</th>
+									<th>Status</th>
+									<th>Vacancies - Locations</th>
+									<th>Deadline</th>
+									<th>Salary</th>
+									<th>More Information</th>
+								</tr>
+							</tfoot>
+							<tbody>
+								
+								
+<!--								Template for new entries, You can copy and paste this to add more
+-->
+								
+<!--
+								<tr>  
+									<td></td>
+									<td></td>
+									<td>Part Full Time / Active</td>
+									<td></td>
+									<td>mm/dd/yyyy</td>
+									<td></td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li></li>
+														<li></li>
+														<li></li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+-->
+   
+                                <tr>  
+									<td>1260</td>
+									<td>Kitchen Helper</td>
+									<td>Part Time / Active 20 hrs/wk</td>
+									<td>1 - Windsor</td>
+									<td>10/31/2017</td>
+									<td>$11.40</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Assist in cutting vegetables or preparation of food ingredients</li>
+														<li>Wash kitchen utensil, pots and pans</li>
+                                                        <li>Clean and organize kitchen area</li>
+                                                        <li>Stock food inventory</li>
+                                                        <li>Transportation is available : 1C or any bus going to west side.</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr>  
+									<td>1259</td>
+									<td>Sushi Chef</td>
+									<td>Part Full Time / Active 30 hrs/wk</td>
+									<td>5 - Windsor</td>
+									<td>10/31/2017</td>
+									<td>$11.60</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Create high quality sushi including cooking rice, rolling sushi temperature recording, cutting, packaging, labelling and date stamping</li>
+														<li>Ability to work in a fast-paced environment and maintain daily production records</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                            <tr>  
+									<td>1258</td>
+									<td>Line Cook</td>
+									<td>PartTime / Active 25 hours per week</td>
+									<td>1 - Windsor</td>
+									<td>10/31/2017</td>
+									<td>$13+</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Proven cooking experience, restaurant line cook or prep cook</li>
+														<li>Excellent understanding of various cooking methods, ingredients, equipment and procedures</li>
+														<li>Accuracy and speed in executing assigned tasks</li>
+                                                        <li>Must be highly reliable, responsible, and dependable in fulfilling obligations</li>
+                                                        <li>Can work in a fast-paced environment</li>
+                                                        <li>Physically fit, ability to lift at least 25 lbs</li>
+                                                        <li>On-the-job training will be provided</li>
+                                                        <li>APPLICANT MUST BE AVAILABLE TO WORK ON THE EMPLOYER'S REQUIRED SCHEDULE</li>
+                                                        <li>Anytime BETWEEN 9am to 9pm</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr>  
+									<td>1257</td>
+									<td>Manager, Toll Operations</td>
+									<td>Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>10/31/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Supervises Operations Department employees which includes Operations Supervisors</li>
+                                                        <li>Toll Collectors, Traffic Guards, and IT Support</li>
+														<li>Administers the collective agreement; enforces operational work rules and Company policies and procedures</li>
+														<li>Performs all activities related to management of staff including defining roles and
+                                                        responsibilities</li>
+                                                        <li>provides leadership, develops team work, setting goals, priorities, facilitating work, removing barriers/resolving differences, counselling, </li>
+                                                        <li>Schedules and assigns shifts of Operations Supervisors</li>
+                                                        <li>Assists in the selection of new hires; orientation; training of employees; assesses performance of new employees during probationary period</li>
+                                                        <li>Monitors movement of traffic in the Tunnel and Plaza via video cameras; maintains ongoing communication with Customs Border Services Agency to ensure sufficient primary and secondary inspection services. </li>
+                                                        <li>Ensures minimal or no incidence of toll leakage and closure of operating lanes</li>
+                                                        <li>Prepares regular and annual budgets for the Toll Operations Department</li>
+                                                        <li>Reviews and investigates accident reports or customer complaints</li>
+                                                        <li>Knowledge of IT network communications and systems</li>
+                                                        <li>Ability to lift up to 50 pounds; required to stand, walk and sit</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr>  
+									<td>1256</td>
+									<td>Manager, Plant Engineering and Maintenance</td>
+									<td>Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>10/31/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Coordinates, guides and monitors all work related to engineering and plant projects</li>
+														<li>Responsible for physical plant operations, infrastructure, and construction projects</li>
+														<li>Related to the Tunnel including electrical systems, emergency systems, mechanical, plumbing, heating, ventilation, HVAC.</li>
+                                                        <li>Implements maintenance standards and performance programs for the Tunnel</li>
+                                                        <li>Implements a maintenance management system to record all incidents, issue work orders</li>
+                                                        <li>Ensure that all maintenance is carried out in a systematic and accountable way.</li>
+                                                        <li>Tracks and allocates financial and technical resources in accordance with operational. CapEx needs and budgetary restraints.</li>
+                                                        <li> Plans and supervises the Tunnel’s capital projects. Recommends and justifies the Tunnel’s expenditure projects, including improvement and economic projects</li>
+                                                        <li>Prepares annual operating and five year capital budgets as part of WDBL’s budget process.</li>
+                                                        <li>Prepares the costing and budgeting details for new projects, and the supervision</li>
+                                                        <li>Completion of approved projects for annual reporting, capital construction and five year and long term forecasts</li>
+                                                        <li>Prepares specifications for contracted services and participates in the review and evaluation of bids.</li>
+                                                        <li>Ability to lift up to 75 pounds; required to stand, walk and sit</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr>  
+									<td>1255</td>
+									<td>Maintenance Superviso</td>
+									<td>Part Full Time / Active</td>
+									<td></td>
+									<td>10/31/2017</td>
+									<td></td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Oversees and directs plant maintenance staff, equipment installation, facilities equipment repair and preventative maintenance</li>
+														<li>Responsible for the operation of the garage and specialized equipment located therein</li>
+														<li>Develops automotive and equipment specifications and evaluates purchased equipment</li>
+                                                        <li>Inspects and evaluates physical plant, grounds and related equipment</li>
+                                                        <li>Coordinates the preventative maintenance of the physical plant and grounds</li>
+                                                        <li>Coordinates with outside contractors to perform activities, repairs, preventive maintenance on building equipment, building and grounds appearance</li>
+                                                        <li>Ensures that adequate and timely services are provided in emergency situations such as a breakdown in plant equipment, power outages, water quality etc</li>
+                                                        <li>Purchases and manages all related maintenance supplies and plant equipment repair parts for all equipment in the facility</li>
+                                                        <li>Prepares weekly maintenance schedules, allocates work and assigns overtime</li>
+                                                        <li>Assists in preparing and planning for the maintenance budget and works with the Manager, Plant Engineering and Maintenance to ensure that maintenance operations remain within budgeted guidelines</li>
+                                                        <li>Participates in the review and preparation of recommendations on improvements on the facility, work methods, procedures, organization, and working conditions</li>
+                                                        <li>Assists with developing and maintaining engineering and maintenance standards</li>
+                                                        <li>Ability to lift up to 75 pounds; required to stand, walk and sit</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                <tr>  
+									<td>1254</td>
+									<td>Human Resources Assistant</td>
+									<td>Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>10/31/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Recruitment</li>
+														<li>Employee relations</li>
+														<li>Payroll administration</li>
+                                                        <li>Maintain the HRIS system </li>
+                                                        <li>Compensation and benefits administration including short term disability insurance and long term disability claim management</li>
+                                                        <li>Employee orientation and development </li>
+                                                        <li>WSIB administration </li>
+                                                        <li>Human Resources filing system </li>
+                                                        <li>Employer Health Tax administration Cost of Living Adjustment (C.O.L.A.) administration</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr>
+									<td>1253</td>
+									<td> Financial Analyst </td>
+									<td>Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>10/31/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Assist in the development, review and presentation of financial information</li>
+														<li>Assist in the creation, documentation and monitoring of financial controls, policies and procedures.</li>
+														<li>Perform financial analysis relevant to new and existing initiatives and programs</li>
+                                                        <li>Record transactions in the Corporation’s accounting system and subsystems</li>
+                                                        <li>Assist with operating and capital budget development</li>
+                                                        <li>Assist in the development of interim and yearend financial statements</li>
+                                                        <li>Perform regular budget to actual variance analysis and reporting</li>
+                                                        <li>Perform accounts payable, accounts receivable and other account reconciliations</li>
+                                                        <li>Perform other duties as assigned.</li>
+                                                        <li>Must have a University degree with a major in Accounting or Finance or Ontario Ministry of Education equivalency combined </li>
+                                                        <li>Minimum of three years experience in a computerized accounting environment</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr>  
+									<td>1252</td>
+									<td>Administrative Assistant</td>
+									<td>Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>10/31/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Assist with payroll</li>
+														<li>Provide administrative support for Health and Safety Program</li>
+														<li>Record, compile, transcribe and distribute minutes of meetings</li>
+                                                        <li>Open, sort and distribute incoming mail</li>
+                                                        <li>Maintain office supply inventory</li>
+                                                        <li>Coordinate maintenance of office equipment</li>
+                                                        <li>Contribute to team effort by accomplishing related results as needed</li>
+                                                        <li>Ensure safety boards with postings including but not limited to</li>
+                                                        <li>Health and Safety Policy, inspection and audit results, project hazard assessment, location of first aid, de-fib training, WHMIS, etc current.</li>
+                                                        <li>Post overtime reports</li>
+                                                        <li>Generate letters relating to departmental movement of employees; post bids</li>
+                                                        <li>Experience in a unionized environment would be considered as an asset</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                <tr>  
+									<td>1251</td>
+									<td>Accounting Clerk</td>
+									<td> Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>10/31/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Process purchase requisitions, accounts payable vouchers</li>
+														<li>Accounts receivable invoices in accordance with established policies and procedures</li>
+														<li>Update and maintain accounting journals, ledgers and other records detailing financial business transactions</li>
+                                                        <li>Receive vendor invoices and distribute for approval</li>
+                                                        <li>Address vendor payment inquiries</li>
+                                                        <li>Follow up on overdue accounts receivable invoices</li>
+                                                        <li>Assist in period end reporting procedures</li>
+                                                        <li>Perform bank reconciliations</li>
+                                                        <li>Prepare and reconcile monthly HST returns</li>
+                                                        <li>Maintain filing system for the Finance Department</li>
+                                                        <li>Must have an Ontario Secondary School Graduation Diploma</li>
+                                                        <li>Combined with a Community College diploma with a major in Accounting or Finance</li>
+                                                        <li>Or combined with a Community College diploma with a major in Accounting or Finance in a computerized accounting environment</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+
+                                <tr>  
+									<td>1250</td>
+									<td>Operations Supervisor</td>
+									<td>Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>10/31/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Responds to Plaza/Tunnel operational issues and emergencies</li>
+														<li>Administers the collective agreement; enforces operational work rules and Company policies and procedures Ensures Compliance with all company</li>
+														<li>Rules and procedures and departmental work instructions, processes, systems, etc.</li>
+                                                        <li>Schedules and assigns traffic and toll staff; approves and covers vacancies when needed</li>
+                                                        <li>Issues change to toll collectors when required</li>
+                                                        <li>Changes and secures automatic coin machine vaults.</li>
+                                                        <li>Assists in the selection of new hires; orientation; training of employees; and assesses performance of new employees during probationary period.</li>
+                                                        <li>Participates in training sessions.</li>
+                                                        <li>Monitors movement of traffic in the Tunnel and Plaza via video cameras</li>
+                                                        <li>Maintaining ongoing communication with Customs Border Services Agency to ensure sufficient primary and secondary inspection services</li>
+                                                        <li>Ensures minimal closure of operating lanes.</li>
+                                                        <li>Ensures minimal or no incidence of toll leakage.</li>
+                                                        <li>Reviews and investigates accident reports or customer complaints</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                              
+                                <tr>  
+									<td>1249</td>
+									<td>Cleaner</td>
+									<td>Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>10/31/2017</td>
+									<td>$11.40</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>General store maintenance including trash removal, dusting, cleaning, re-stocking supplies in restroom, dinning areas</li>
+														<li>Placing orders for supplies in janitor supply rooms. Sweeping and mopping floors and vacuuming.</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr>  
+									<td>1248</td>
+									<td>Sales Associate</td>
+									<td>Part Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>10/31/2017</td>
+									<td>$14.00</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Clients interactions</li>
+														<li>Ensuring a welcoming environment for client in the store</li>
+														<li>Sharing with the client his/her knowledge on the art of fine perfumery, on the brand, and on the collection</li>
+                                                        <li>Building client database by gathering all clients information</li>
+                                                        <li>In-store operational duties</li>
+                                                        <li>Up-keeping the maintenance of the boutique and make sure it is clean at all times.</li><li>Monitoring the daily sales chart</li>
+                                                        <li>Ensuring a full stock of merchandise on the floor and transferring from the stock room to the floor as needed</li>
+                                                        <li>Assisting in weekly Supply Orders with the ceo</li>
+                                                        <li>Communication skills: excellent written, verbal & interpersonal skills</li>
+                                                        <li>Addressing and successfully resolving client situations according to company philosophy and escalating to corporate level for specific request</li>          
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr>  
+									<td>1247</td>
+									<td>Cashier</td>
+									<td> Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>10/31/2017</td>
+									<td>$11.40</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Greet customers entering establishments. Maintain clean and orderly checkout areas</li>
+														<li>Receive payment by cash, check, credit cards, vouchers, or automatic debits.</li>
+														<li>Issue receipts, refunds, credits, or change due to customers.</li>
+                                                        <li>Count money in cash drawers at the beginning of shifts to ensure that amounts are correct and that there is adequate change</li>
+                                                        <li>Establish or identify prices of goods, services or admission, and tabulate bills using calculators, cash registers, or optical price scanners.</li>
+                                                        <li>Issue trading stamps, and redeem food stamps and coupons.</li>
+                                                        <li>Resolve customer complaints. Answer customers' questions, and provide information on procedures or policies.</li>
+                                                    <li>Cash checks for customers. Weigh items sold by weight in order to determine prices.</li><li>Calculate total payments received during a time period, and reconcile this with total sales.</li>
+                                                    <li>Compute and record totals of transactions</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr>  
+									<td>1246</td>
+									<td>General Labourers</td>
+									<td> Full Time / Active</td>
+									<td>3- Windsor</td>
+									<td>9/30/2017</td>
+									<td>$12 - $16</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>$12 - $16 depending on experience</li>
+														<li>You must be hardworking, reliable and adaptable.</li>
+                                                        <li>Must have previous construction knowledge and experience</li>          
+                                                        <li>Good attendance is required</li> 
+                                                        <li>Must be able to lift 50+lbs</li> 
+                                                        <li>Must have proper safety gear- Hard hat, work boots, safety vest</li> 
+                                                        <li>Work references required</li> 
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                            <tr>  
+									<td>1245</td>
+									<td>Bakery Helper</td>
+									<td>Part Time / Active 20 + hr</td>
+									<td>1- Windsor</td>
+									<td>9/30/2017</td>
+									<td> $11.40 </td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Reliable, punctual and responsible</li>
+														<li>Carries and distributes supplies, such as flour, shortening, and baking pans</li>
+														<li>Mixes, kneads or shapes dough</li>
+                                                        <li>Greases pans used to mold or bake breads and lines pans with waxed paper</li>
+                                                        <li>Cleans bakery utensils, equipment, and work area</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr>  
+									<td>1244</td>
+									<td>General Labour</td>
+									<td>Full Time / Active</td>
+									<td>1- Windsor</td>
+									<td>9/30/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Looking for a handy individual, who is willing to work with heating/cooling and plumbing types of work</li>
+														<li>Able to be trained and attend school in the future for trade certifications</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr>  
+									<td>1243</td>
+									<td>Customer Service   </td>
+									<td>Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>11.4</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Reliable individual with good communication and customer service skills</li>
+														<li> Must be available and flexible to work weekdays</li>
+														<li>Can work on evenings and weekends</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                
+                                <tr>  
+									<td>1242</td>
+									<td>Customer Service Rep.</td>
+									<td>Full Time / Active</td>
+									<td>1- Windsor</td>
+									<td>9/30/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Good computer skills and familiar with Microsoft Office</li>
+														<li>Strong communication skills and good phone etiquette</li>
+														<li>Good written and spoken English</li>
+                                                        <li>Reliable and willing to learn</li> 
+                                                        <li>Can multitask</li>
+                                                        <li>Office hours(Mon-Fri, 9am-5:30pm)</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr> 
+                                
+                                <tr>  
+									<td>1241</td>
+									<td>Medical Assistant</td>
+									<td>Full Time / Active 30-40hrs/wk</td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$16</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Replenish supplies, manage material and equipment stock</li>
+														<li>Able to lift 50lbs</li>
+														<li>Friendly and is willing to assist patients' needs</li>
+                                                        <li>Clean up medical office after appointments</li>
+                                                        <li>Able to work in hospital environment</li>
+                                                        <li>Employer will provide in-house training and third party training </li>
+                                                        <li>Police clearance is required</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                           
+                                <tr>  
+									<td>1240</td>
+									<td>Production Labourer</td>
+									<td>Full Time / Active</td>
+									<td>3 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$12.54</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Willing to do a rotating shifts (days and afternoons)</li>
+														<li>Physically fit</li>
+														<li>Can stand for long period of time</li>
+                                                        <li>Company location is not on a bus route ; reliable transportation is a must</li>
+                                                        <li>$12.54 an hour plus opportunity to work over time 44 to 55 hours per week</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr> 
+									<td>1239</td>
+									<td>Customer Service Rep  </td>
+									<td>Full Time / Active </td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$11.40</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li> Greeting clients, arrange seating, place order and assist clients' needs</li>
+                                                                                <li> Operate cash register </li>
+                                                                                <li> Answer questions, deal with clients' complains and provide customer services</li>
+                                                                                                                        
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                               
+                                <tr>  
+									<td>1238</td>
+									<td>Bread Baker </td>
+									<td>Part Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Previous experience in baked Italian and European breads, rolls, and buns</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr>  
+									<td>1237</td>
+									<td>Automated Machine Builder</td>
+									<td> Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>5-10 Years Experience of hands on Machine Building</li>
+														<li>Full time (From 40-55hours per week)</li>
+														<li>Able to Debug/Troubleshoot Standalone Automated Machines</li>
+                                                        <li>Custom Fit and Finish (General Machining Knowledge Required)</li>
+                                                        <li>Can work Alone or in a Team Environment </li>
+                                                        <li>Experience with Pneumatics would be an Asset</li>
+                                                        <li>Reliable transportation Required</li>          
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                               <tr>  
+									<td>1236</td>
+									<td>Automated Machine Designer</td>
+									<td>Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td> TBD </td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>3-5 Years Experience Designing Automated Machines </li>
+														<li>Solidworks experience is an asset -Full time (From 40-55hours per week) </li>
+														<li>Experience with common Machining Practices</li>
+                                                        <li>Can work Alone or in a Team Environment</li>
+                                                        <li>General Knowledge of Pneumatic Circuits</li>
+                                                        <li>General Knowledge of Electrical Sensors and Their Applications</li> 
+                                                        <li>Reliable transportation Required</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr> 
+                                
+                                <tr>  
+									<td>1235</td>
+									<td>Junior Mechanical Detailer</td>
+									<td>Full Time / Active 40-55hr/wk</td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Attention to detail</li>
+														<li>Must be able to multi task</li>
+														<li>Must have reliable transportation</li>
+                                                        <li>Solid works experience preferred</li>
+                                                        <li>Machining experience preferred</li>
+                                                        <li>Detailing isn't a 100% job duty, to fill in the time between detailing jobs</li>
+                                                        <li>It will be there responsibility to put together technical books for machine designs</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                
+                                <tr>  
+									<td>1234</td>
+									<td>Youth Innovations Lead </td>
+									<td>Part Time / Active 15hrs/wk</td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>A post-Secondary degree, diploma or equivalent experience in a relevant field</li>
+														<li>Ability to work with youth </li>
+														<li>Enthusiastic and self-motivated </li>
+                                                        <li>Must be knowledgeable about issues of immigrant youth</li>  
+                                                        <li>Able to make and maintain contacts in the community </li>
+                                                        <li>Ability to work independently</li>
+                                                        <li>Possessing 2 or more languages is an asset </li>
+                                                        <li>For full job description, please email employment@wwwwiw.org</li>          
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                
+                                <tr>  
+									<td>1233</td>
+									<td>Housekeeper / Nanny</td>
+									<td>Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$15.00</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Vacuum carpets and rugs, clean the floors</li>
+														<li>Empty and clean trash containers</li>
+														<li>Make up beds and change linens as required</li>
+                                                        <li>Take care and prepare meals for a 2 young child</li>          
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                          
+                              <tr>  
+									<td>1232</td>
+									<td>Retail Sales Clerk</td>
+									<td>Part Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$11.4</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Strong communication skills</li>
+														<li>Previous experience working in sales/customer service is preferred</li>
+														<li>Must be available evenings and weekends</li>
+                                                        <li>Looking for someone mature and reliable</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr> 
+                             
+                                
+                                <tr>  
+									<td>1231</td>
+									<td>Cashier</td>
+									<td>Part Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$11.4</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Cashiers directly interact with customers, helping them make their shopping experience a successful one</li>
+														<li>Responsible for ensuring a high level of customer service at checkouts</li>
+														<li>Accurately records customer transactions in electronic cash register</li>
+                                                        <li>Operate point of sale systems. Maintaining replenishment of checkout merchandise</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr>  
+									<td>1230</td>
+									<td>Bottle Assembly </td>
+									<td>Full Time / Active</td>
+									<td>3 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$12.50</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+														<li>Packaging product into pre-set boxes </li>
+														<li>Assembling product together for shipment </li>
+														<li>Some lifting requiring </li>
+                                                                  <li>6 months to 1 year previous working experience is considered an asset </li>
+                                                                  <li>CSA approved steel-toed boots/shoes </li>
+                                                                  <li>Own vehicle required (job location is not on bus route)</li>
+													</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr> 
+									<td>1229</td>
+									<td>Housekeeper / Nanny</td>
+									<td>Full Time / Active </td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td> $15.00</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>Vacuum carpets and rugs, clean the floors</li>
+                                                                  <li>Empty and clean trash containers</li>
+                                                                  <li>Make up beds and change linens as required</li>
+                                                                  <li>Take care and prepare meals for a 2 young child</li>
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>           
+                                
+                                 <tr> 
+									<td>1228</td>
+									<td>Janitor</td>
+									<td>Part Time / Active 6-18hrs/wk </td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td> $11.40 </td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>Clean office area including sweeping, mopping, dusting</li>
+                                                                  <li>Check supplies and stock</li>
+                                                                  <li>Notify management of occurring deficiencies or needs for repairs</li>
+                                                                  <li>Honest, reliable and must be able to work independently</li>
+                                                                  <li>2 to 5 days per week, 3 to 3.5 hours per day</li>
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>           
+                                
+                                <tr> 
+									<td>1227</td>
+									<td>Dim Sum Maker</td>
+									<td>Full Time / Active </td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td> TBD </td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>Experienced in making Dim Sum</li>
+                                                                  <li>Able to communicate in Chinese or English</li>
+                                                                  <li>Able to follow instructions and comfortable to work at front of customers</li>
+                                                                  <li>Able to work under pressure and in a fast paced restaurant</li>
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>           
+                                
+                                <tr> 
+									<td>1226</td>
+									<td>Chef/Line Cook</td>
+									<td>Full Time / Active </td>
+									<td>2 - Windsor</td>
+									<td>9/30/2017</td>
+									<td> TBD </td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>Experienced in making Chinese cuisine</li>
+                                                                  <li>Able to work in evenings and weekends</li>
+                                                                  <li>Able to work under pressure and in a fast paced restaurant</li>
+                                                                  <li>Ability to read Chinese labels and communicate in Chinese or English</li>
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>          
+                                
+                                <tr> 
+									<td>1225</td>
+									<td>Temporary workers</td>
+									<td>Full Time / Active </td>
+									<td>Multiple - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$15-$16/hr </td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>Must have steel toe safety boots</li>
+                                                                  <li>Must complete the 4 Steps H&S Work Awareness prior to starting:</li> <li>Mustwww.labour.gov.on.ca/english/hs/elearn/worker</li>
+                                                                  <li>Must be able to work safely – bending, twisting, lifting, standing for up to 12 hours</li>
+                                                                  <li>$15/hr for clean up, $16/hr if they drive and are willing to carpool others</li>
+                                                                  <li>Starting time is 8am, everyone meets at the Holiday Inn on Huron church and get their assignments for the day (they can expect to work between 8hours and 12 hours, depending on where they are that day)</li>
+                                                                  <li>OT is paid after 44 hours in a week (“week” is Sunday to Saturday)</li>
+                                                            </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>           
+                                
+                                
+                                
+                                <tr> 
+									<td>1224</td>
+									<td>Director, Construction</td>
+									<td> Full Time / Active </td>
+									<td>1 - Windsor</td>
+									<td>9/29/2017</td>
+									<td>$125,789 - $153,743 plus benefits and pension package</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>B.Sc. in Civil/Structural Engineering</li>
+                                                                  <li>Registered as a Professional Engineer (P. Eng) in Ontario or P.E. in Michigan</li>
+                                                                  <li>Successful completion of an ISO 9001 Lead Auditor Course is an asset</li>
+                                                                  <li>A minimum of fifteen 15 years’ construction oversight and contract administration experience in construction of major infrastructure projects</li>
+                                                                  <li>Demonstrated experience in contract administration and payment certification</li>
+                                                                  <li>Demonstrated experience managing and coordinating Quality Management activities on major bridge and building projects</li>
+                                                                  <li>Demonstrated experience on planning, documenting and scheduling of major infrastructure projects; P3 and design build experience will be considered an asset</li>
+                                                                  <li>Expert knowledge of building products, construction details and relevant rules, regulations and quality standards</li>
+                                                                  <li>Excellent organizational, analytical and problem solving abilities, with exceptional attention to detail</li>
+                                                                  <li>Ability to work in a fast-paced environment</li>
+                                                                  <li>Willingness and ability to travel throughout Ontario and Michigan</li>
+                                                                  <li>Please visit http://www.wdbridge.com/en/opportunities </li>
+                                                                  <li>Or email employment@wwwwiw.org</li> 
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>          
+                                
+                                 <tr> 
+									<td>1223</td>
+									<td>Sushi Maker</td>
+									<td>Part / Full Time / Active </td>
+									<td>Multiple - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$11.40/hr </td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>Create high quality sushi including cooking rice, rolling sushi temperature recording, cutting, packaging, labelling and date stamping</li>
+                                                                  <li>Ability to work in a fast-paced environment and maintain daily production records</li>
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>          
+                                
+                                <tr> 
+									<td>1222</td>
+									<td>Cashier</td>
+									<td>Full Time / Active </td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>Operating the cash register and handling cash transactions with customers</li>
+                                                                  <li>Assess customers needs and provide assistance and information on product features</li>
+                                                                  <li>Scanning goods and collect payments</li>
+                                                                  <li>Issuing receipts, refunds, change or tickets</li>
+                                                                  <li>Resolve customer complaints, guide them and provide relevant information </li>
+                                                                  <li>Maintain clean and tidy checkout areas </li>
+                                                                  <li>Keep reports of transactions</li>
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>          
+                                
+	                     <tr> 
+									<td>1221</td>
+									<td>Sales Associates </td>
+									<td>Part / Full Time / Active </td>
+									<td>4 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$12.00/hr</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>Ensure high levels of customer satisfaction through excellent sales service</li>
+                                                                  <li>Assess customers needs and provide assistance and information on product features</li>
+                                                                  <li>SWelcome customers to the store and answer their queries</li>
+                                                                  <li>Follow and achieve department’s sales goals on a monthly, quarterly and yearly basis</li>
+                                                                  <li>S“Go the extra mile” to drive sales</li>
+                                                                  <li>Maintain in-stock and presentable condition assigned areas</li>
+                                                                  <li>Actively seek out customers in store</li>
+                                                                  <li>Remain knowledgeable on products offered and discuss available options</li>
+                                                                  <li>Process POS (point of sale) purchases</li>
+                                                                  <li>Cross sell products</li>
+                                                                  <li>Handle returns of merchandise</li>
+                                                                  <li>Team up with co-workers to ensure proper customer service</li>
+                                                                  <li>Build productive trust relationships with customers</li>
+                                                                  <li>Comply with inventory control procedures</li>
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>    
+                                
+                          <tr> 
+									<td>1220</td>
+									<td>Kitchen Helper  </td>
+									<td>Part / Full Time / Active 25-35</td>
+									<td>2 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$12.00/hr</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>Perform any combination of following duties to maintain kitchen work areas and restaurant equipment and utensils in clean and orderly condition: Sweeps and mops floors</li>
+                                                                  <li>Wash worktables, walls, refrigerators, and meat blocks</li>
+                                                                  <li>Segregate and removes trash and garbage and places it in designated containers</li>
+                                                                  <li>Steam-clean or hoses-out garbage cans</li>
+                                                                  <li>Sort bottles, and breaks disposable ones in bottle-crushing machine</li>
+                                                                  <li>Wash pots, pans, and trays by hand</li>
+                                                                  <li>Scrape food from dirty dishes and washes them by hand or places them in racks or on conveyor to dishwashing machine</li>
+                                                                  <li>Polish silver, using burnishing-machine tumbler, chemical dip, buffing wheel, and hand cloth</li>
+                                                                  <li>Hold inverted glasses over revolving brushes to clean inside surfaces</li>
+                                                                  <li>Transfer supplies and equipment between storage and work areas by hand or by use of handtruck. 
+Set up banquet tables
+</li>
+                                                                  <li>Wash and peels vegetables, using knife or peeling machine</li>
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>    
+                           <tr> 
+									<td>1219</td>
+									<td>Kitchen Helper</td>
+									<td> Part / Full Time / Active 25-35 </td>
+									<td>10 - Windsor, Lasaller</td>
+									<td>9/30/2017</td>
+									<td>$12.00/hr</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+				          <li>Inspect food preparation and serving areas to ensure observance of safe, sanitary food-handling practices.</li>
+                                                                  <li>Turn or stir foods to ensure even cooking</li>
+                                                                  <li>Season and cook food according to recipes or personal judgment and experience</li>
+                                                                  <li>) Observe and test foods to determine if they have been cooked sufficiently, using methods such as tasting, smelling, or piercing them with utensils.</li>
+                                                                  <li>Weigh, measure, and mix ingredients according to recipes or personal judgment, using various kitchen utensils and equipment</li>
+                                                                  <li>Portion, arrange, and garnish food, and serve food to waiters or patrons</li>
+                                                                  <li>Regulate temperature of ovens, broilers, grills, and roasters.</li>
+                                                                  <li>Substitute for or assist other cooks during emergencies or rush periods.</li>
+                                                                  <li>Bake, roast, broil, and steam meats, fish, vegetables, and other foods</li>
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>     
+                           <tr> 
+									<td>1217</td>
+									<td>In-House Caregiver</td>
+									<td>Full Time / Active</td>
+									<td>40 - Lakeshore, ON</td>
+									<td>9/30/2017</td>
+									<td>$11.40/hr</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>(The employer is willing to provide transportation, and the ECE will be working at the employer's home) </li>
+																				<li>Provide a daily balance of active/quiet, indoor/outdoor, and individual/group activities </li>
+																				<li>Establish and carry out a daily activity schedule that incorporates child directed activity, care routines and transition times 
+Organize space, equipment and materials before activities 
+</li>
+																				<li>Assist the 2 children in expressing themselves by listening and responding with questions or comments that extend conversations </li>
+																				<li>Use a variety of teaching techniques including modelling, observing, questioning, demonstrating, and reinforcing </li>
+																				<li>Encourage and assist children to practice self help daily </li>
+																				<li>Plan and carry out experiences that foster an understanding of a variety of cultures and value systems </li>
+																				<li>Provide opportunity each day for each child to be alone </li>
+                                                                  <li>Provide opportunity for child directed play experience</li>
+                                                                  <li>Plan and carry out activities that encourage problem solving</li>
+                                                                  <li>Provide experiences and play materials</li>
+														</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>     
+                                
+                              <tr><!-- Table row starting  -->
+									<td>1216</td>
+									<td>Bilingual Customer Service Representatives</td>
+									<td>Full Time / Active</td>
+									<td>15 - Windsor</td>
+									<td>30/9/2017</td>
+									<td>$15.00</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>HGS Canada is hiring in July for Full Time English and Bilingual Customer Service Representatives for our Windsor, Ontario location.</li>
+																				<li>NBOUND PERMANENT FULL TIME EMPLOYMENT
+Jobs that lead to careers
+Earn while you learn and grow
+Dedicated training support in your first 4-6 weeks
+Ability to own your own schedule
+Advancement opportunities (90% of our managers have been promoted from within)</li>
+																				<li>A SUPERIOR BENEFITS PACKAGE
+Dental, Medical & Vision (after 90 days)
+No cap on prescriptions to care for you and your family
+Direct Billing Options</li>
+																				<li>THE ABILITY TO INCREASE YOUR OWN INCOME
+Performance Incentives
+Commission incentives
+Refer your friends and earn rewards
+Overtime opportunities during peak times</li>
+																				<li>EMPLOYEE RECOGNITION AWARDS
+Service Awards
+Recognition of performance, passion and pride of a job well done
+Air Miles Rewards
+Employee Discounts
+Up to a 40% discount on Rogers client products and services after 6 months of employment (savings up to $500.00/year)</li>
+																				<li>EMPLOYEE ENGAGEMENT PROGRAMS
+Respect and value of individual and teams
+Employee Appreciation Days.
+Employee Better Relations Committees fostering a sense of pride in our local communities</li>
+																				
+																				</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+								  
+                                
+                                
+                                <tr> 
+									<td>1215</td>
+									<td>English Customer Service Rep </td>
+									<td>Full Time / Active 40hrs</td>
+									<td>30 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$13.00</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+                                                                  <li> Why join us? </li>
+                                                                  <li> Ability to earn $13.00/hour DAY ONE English </li>
+                                                                  <li> INBOUND PERMANENT FULL TIME EMPLOYMENT </li>
+                                                                  <li> Dedicated training support in your first 4-6 weeks </li>
+                                                                  <li> A SUPERIOR BENEFITS PACKAGE </li>
+                                                                  <li> Ability to own your own schedule </li>
+                                                                  <li> Advancement opportunities (90% of our managers have been promoted from within)</li>
+                                                                  <li> A SUPERIOR BENEFITS PACKAGE </li>
+                                                                  <li> Dental, Medical & Vision (after 90 days)</li>
+                                                                  <li> No cap on prescriptions to care for you and your family</li>
+                                                                  <li> Direct Billing Options</li>
+                                                                  <li> THE ABILITY TO INCREASE YOUR OWN INCOME</li>
+                                                                  <li> Performance Incentives</li>
+                                                                  <li> Commission incentives</li>
+                                                                  <li> Employee Appreciation Days</li>
+                                                                  <li> Employee Better Relations Committees fostering a sense of pride in our local communities Qualifications:</li>
+                                                                  <li> Strong multitasking abilities</li>
+                                                                  <li> Clear criminal record check required</li>
+                                                                  <li> Punctual and committed to work schedules</li>
+                                                                  <li> Customer service experience an asset</li>
+                                                                  <li> High school diploma</li>
+                                                                  <li> Strong listening and communication skills, professional telephone manner</li>
+                                                                  <li> Comfortable working in a measurable, target-driven environment</li>
+                                                                  <li> Must have availability to work various shifts, Full Time or Part Time, days, evenings and weekends</li>
+                                                                  <li> Basic computer skills</li>
+                                                                  <li> Ability to find customer answers quickly while using multiple resources</li>
+                                                                  <li> Ability to deal with customers professionally in a fast and ever changing environment</li>
+                                                                  
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                
+                             
+                                <tr> 
+									<td>1214</td>
+									<td>Mental Wellness Support  </td>
+									<td>Part Time / Active 10hrs </td>
+									<td>1 - Windsor</td>
+									<td>8/9/2017</td>
+									<td>TBD</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li> The mental wellness support staff provides support including but not limited to program planning, administrative support and outreach for the Windsor Women Working with immigrant Womens mental wellness program</li> 
+
+                                                                                <li> Responsibilities and Duties </li>
+                                                                                <li> Coordination of groups and program planning </li>
+                                                                                <li> Administrative support to counsellors </li>
+                                                                                <li> Contribution to The Windsor Women Working with Immigrant Women staff team </li>
+                                                                                <li> Advocacy regarding client care </li>
+                                                                                <li> Navigating interdisciplinary support systems </li>
+
+                                                                                <li> Qualifications </li>
+                                                                                <li> Undergraduate degree in social work or related field preferred </li>
+                                                                                <li> Ability to think creatively </li>
+                                                                                <li> Flexibility and open mindedness </li>
+                                                                                <li> Ability to work effectively in a diverse environment </li>
+                                                                                <li> Knowledge about the settlement sector with a view of the larger landscape of settlement in Canada </li>
+                                                                                <li> Computer proficiency in using Microsoft Office Suite </li>
+                                                                                <li> Willingness to work from feminist /anti-oppressive perspective </li>
+
+                                                                                <li> Application Material Required </li>
+                                                                                <li> Resume and Cover Letter </li>
+
+                                                                                <li> In the cover letter, please include your understanding the relationship between mental health and immigration as well as your understanding of mental health recovery </li>
+
+                                                                                <li> Windsor Women Working With Immigrant Women is committed to employment equity initiatives and encourages internationally trained professionals and members of ethno-racial, aboriginal, immigrant, refugee, LGBTQ+ and disabled community groups to apply and self-identify. Internal and external candidates may apply. The Windsor Women Working With Immigrant Women welcomes and encourages applications from people with disabilities. Accommodations are available on request for candidates taking part in all aspects of the selection process </li>
+                                                                                                                        
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                
+                                <tr> 
+									<td>1212</td>
+									<td>Customer Service Rep  </td>
+									<td>Full Time / Active </td>
+									<td>1 - Windsor</td>
+									<td>30/9/2017</td>
+									<td>$11.40</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="top" title="More Info" 
+													data-content="<ul>
+																				<li> Greeting clients, arrange seating, place order and assist clients' needs</li>
+                                                                                <li> Operate cash register </li>
+                                                                                <li> Answer questions, deal with clients' complains and provide customer services</li>
+                                                                                                                        
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+                                                                
+                                <tr> 
+									<td>1211</td>
+									<td>Sales Associate  </td>
+									<td>Part Time / Active </td>
+									<td>2 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$11.40</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="top" title="More Info" 
+													data-content="<ul>
+																				<li>Must be mature and reliable. Strong communication skills and fluent in English</li>
+                                                        </ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+								                      
+                                
+                                <tr> 
+									<td>1210</td>
+									<td>Medical Office Assistant </td>
+									<td>Part Time / Active 28hrs</td>
+									<td>1 - Windsor</td>
+									<td>9/30/2017</td>
+									<td>$20.00</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="top" title="More Info" 
+													data-content="<ul>
+																				<li>Clerical work: filing, answering phone calls, managing appointment booking, liasioning with pharmacies, etc.</li>
+																				<li>Customer Service: greeting patients, assist clients as needed.</li>
+																				<li>Good computer and phone skills</li>
+																				<li>Friendly and easy going </li>
+														</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+								
+								
+								<tr> 
+									<td>1192</td>
+									<td>General Labourer/Driver</td>
+									<td>Full Time / Active</td>
+									<td>1 - Windsor</td>
+									<td>Until Filled</td>
+									<td>$14</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="top" title="More Info" 
+													data-content="<ul>
+																				<li>General labour – raking, operating wheel barrow, lifting, cleaning</li>
+																				<li>No concrete experience necessary</li>
+																				<li>Permanent position</li>
+																				<li>Must have a full G license – required to pick up and drop off other workers.</li>
+																				<li>Will get to take home company vehicle.</li>
+														</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+							
+								<tr><!-- Table row starting  -->
+									<td>1184</td>
+									<td>English Customer Service Representatives</td>
+									<td>Full Time / Active</td>
+									<td>15 - Windsor</td>
+									<td>Until Filled</td>
+									<td>$11.50</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>HGS Canada is hiring in July for Full Time English and Bilingual Customer Service Representatives for our Windsor, Ontario location.</li>
+																				<li>NBOUND PERMANENT FULL TIME EMPLOYMENT
+Jobs that lead to careers
+Earn while you learn and grow
+Dedicated training support in your first 4-6 weeks
+Ability to own your own schedule
+Advancement opportunities (90% of our managers have been promoted from within)</li>
+																				<li>A SUPERIOR BENEFITS PACKAGE
+Dental, Medical & Vision (after 90 days)
+No cap on prescriptions to care for you and your family
+Direct Billing Options</li>
+																				<li>THE ABILITY TO INCREASE YOUR OWN INCOME
+Performance Incentives
+Commission incentives
+Refer your friends and earn rewards
+Overtime opportunities during peak times</li>
+																				<li>EMPLOYEE RECOGNITION AWARDS
+Service Awards
+Recognition of performance, passion and pride of a job well done
+Air Miles Rewards
+Employee Discounts
+Up to a 40% discount on Rogers client products and services after 6 months of employment (savings up to $500.00/year)</li>
+																				<li>EMPLOYEE ENGAGEMENT PROGRAMS
+Respect and value of individual and teams
+Employee Appreciation Days.
+Employee Better Relations Committees fostering a sense of pride in our local communities</li>
+																				
+																				</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+								
+								
+								<tr><!-- Table row starting  -->
+									<td>1183</td>
+									<td>Bilingual Customer Service Representatives</td>
+									<td>Full Time / Active</td>
+									<td>15 - Windsor</td>
+									<td>Until Filled</td>
+									<td>$13.50</td>
+									<td>
+									<a type="button" class="btn btn-default" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html = "true" data-placement="left" title="More Info" 
+													data-content="<ul>
+																				<li>HGS Canada is hiring in July for Full Time English and Bilingual Customer Service Representatives for our Windsor, Ontario location.</li>
+																				<li>NBOUND PERMANENT FULL TIME EMPLOYMENT
+Jobs that lead to careers
+Earn while you learn and grow
+Dedicated training support in your first 4-6 weeks
+Ability to own your own schedule
+Advancement opportunities (90% of our managers have been promoted from within)</li>
+																				<li>A SUPERIOR BENEFITS PACKAGE
+Dental, Medical & Vision (after 90 days)
+No cap on prescriptions to care for you and your family
+Direct Billing Options</li>
+																				<li>THE ABILITY TO INCREASE YOUR OWN INCOME
+Performance Incentives
+Commission incentives
+Refer your friends and earn rewards
+Overtime opportunities during peak times</li>
+																				<li>EMPLOYEE RECOGNITION AWARDS
+Service Awards
+Recognition of performance, passion and pride of a job well done
+Air Miles Rewards
+Employee Discounts
+Up to a 40% discount on Rogers client products and services after 6 months of employment (savings up to $500.00/year)</li>
+																				<li>EMPLOYEE ENGAGEMENT PROGRAMS
+Respect and value of individual and teams
+Employee Appreciation Days.
+Employee Better Relations Committees fostering a sense of pride in our local communities</li>
+																				
+																				</ul>" 
+													data-container="body">Details
+									</a>
+									</td>
+								</tr>
+								
+								
+								
+								
+							</tbody>
+						</table>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		
+		<footer id="footer" class="dark" style="background-color: #203054; repeat; background-size: cover;">
+
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap clearfix" >
+
+					<div class="col_one_third col-xs-3">
+
+						<div class="widget clearfix">
+
+							<img src="images/logo.png" alt="" class="footer-logo hidden-xs">
+
+							<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+								<address>
+									<strong>Main Site:</strong><br>
+									1368 Ouellette Ave.<br>
+									Windsor, ON. N8X 1J9<br>
+								</address>
+								<abbr title="Phone Number"><strong>Phone:</strong></abbr> 519-973-5588 <br>
+								<abbr title="Fax"><strong>Fax:</strong></abbr> 519-973-1534 <br>
+								<abbr title="Email Address"><strong>Email:</strong></abbr>  info@wwwwiw.org 
+							</div>
+
+						</div>
+												
+						<div class="widget clearfix" style="margin-bottom: -20px;">
+
+							<div class="row">
+
+								<div class="col-md-6 clearfix bottommargin-sm">
+									<a href="https://www.facebook.com/fivews.windsor" target="_blank" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+									<a href="https://www.facebook.com/fivews.windsor" target="_blank"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
+								</div>
+								<div class="col-md-6 clearfix">
+									<a href="https://twitter.com/wwwwiw_org" target="_blank" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
+										<i class="icon-twitter"></i>
+										<i class="icon-twitter"></i>
+									</a>
+									<a href="https://twitter.com/wwwwiw_org" target="_blank"><small style="display: block; margin-top: 3px;"><strong>Find us</strong><br>on Twitter</small></a>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+					
+					
+					<hr class="hidden-md hidden-lg hidden-sm">
+					
+					<div class="col_one_third col-xs-3 ">
+
+						<div class="widget clearfix">
+							<h2>Our Funders</h2>
+							<div class="testimonial nobg noborder noshadow nopadding">
+											<div class="testi-content">
+												<img height="40px" src="http://learninglikechampions.ca/wp-content/themes/learninglikechampions/img/logo-ontario.png" alt="" class="footer-logo">
+												<img  height="50px" src="http://www.feddevontario.gc.ca/eic/site/723.nsf/vwimages/cip150-pic150-wordmarkwhite-motsymboleblanc.png/$file/cip150-pic150-wordmarkwhite-motsymboleblanc.png" alt="" class="footer-logo">
+												<img height="50px" src="http://www.chs.ca/sites/default/files/fund-fond-2b-e.jpg" alt="" class="footer-logo">
+												<img height="60px" src="http://www.tcu.gov.on.ca/eng/eopg/publications/vi/eo_logo/Red.jpg" alt="" class="footer-logo">
+											</div>
+							</div>
+
+						</div>
+
+
+					</div>
+
+					<hr class="hidden-md hidden-lg hidden-sm">
+					
+					<div class="col_one_third col_last col-md-6 col-xs-6">
+						
+						<div class="row">
+
+								<div class=" widget_links">
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li><a href="About.html">About Us</a></li>
+										<li><a href="programs.html">Programs</a></li>
+										<li><a href="jobboard.html">Job Board</a></li>
+										<li><a href="careers.html">Careers</a></li>
+									</ul>
+								</div>
+						</div>
+
+						<br>
+						<br>
+						<a href="http://wwwwiw.org/wp-content/uploads/2017/05/Accessible-customer-service-plan-NEW.pdf" target="_blank" style="color: white; font-size: 20px;"> Accessible Customer Service Plan</a>
+						
+						<br>
+						<br>
+						
+						<a href="http://donatenow.wc.lt/?donate=ying@wwwwiw.org&method=PayPal" target="_blank" style="color: white;" class="button button-large button-border button-rounded tright button-blue hidden-xs hidden-sm">Consider Donating <i class="icon-circle-arrow-right"></i></a>
+						
+						
+						<a href="http://donatenow.wc.lt/?donate=ying@wwwwiw.org&method=PayPal" target="_blank" style="color: white;" class="button button-small button-border button-rounded tright button-blue visible-xs visible-sm">Consider Donating</a>
+						
+						
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+
+				<div class="container clearfix">
+
+					<div class="col_half">
+						Copyrights &copy; 2017 Windsor Women Working With Immigrant Women
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+
+	<!-- Bootstrap Data Table Plugin -->
+	<script type="text/javascript" src="js/components/bs-datatable.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="js/functions.js"></script>
+
+	<script>
+
+		$(document).ready(function() {
+			$('#datatable1').dataTable();
+		});
+
+	</script>
+	
+	<script>
+function filterFunc(x) {
+	reloadTable();
+  var input, filter, table, tr, td, i;
+  input = document.getElementById(x);
+  filter = input.value.toUpperCase();
+  table = document.getElementById("datatable1");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[2];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+		
+		function reloadTable(){
+  table = document.getElementById("datatable1");
+  tr = table.getElementsByTagName("tr");
+			  for (i = 0; i < tr.length; i++) {
+					tr[i].style.display = "";
+    }       
+  }		
+</script>
+	
+
+</body>
+</html>

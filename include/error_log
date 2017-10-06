@@ -1,0 +1,7 @@
+[27-Jul-2017 10:27:30 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ''" }'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/wwwwiw/public_html/newWebsite/include/sendemail.php on line 65
+[27-Jul-2017 11:04:14] PHP Fatal error:  Cannot instantiate non-existent class:  phpmailer in /home/wwwwiw/public_html/newWebsite/include/sendemail.php on line 18
+[27-Jul-2017 11:04:56] PHP Fatal error:  Cannot instantiate non-existent class:  phpmailer in /home/wwwwiw/public_html/newWebsite/include/sendemail.php on line 18
+[27-Jul-2017 12:11:26 America/Los_Angeles] PHP Warning:  require(/newWebsite/include/phpmailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/wwwwiw/public_html/newWebsite/include/sendemail.php on line 3
+[27-Jul-2017 12:11:26 America/Los_Angeles] PHP Fatal error:  require(): Failed opening required '/newWebsite/include/phpmailer/PHPMailerAutoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/wwwwiw/public_html/newWebsite/include/sendemail.php on line 3
+[27-Jul-2017 12:15:42 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '}' in /home/wwwwiw/public_html/newWebsite/include/sendemail.php on line 75
+[27-Jul-2017 12:16:35 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '}' in /home/wwwwiw/public_html/newWebsite/include/sendemail.php on line 75
